@@ -3,6 +3,8 @@
 <head>
   <title>HTML</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href=style.css>
+  
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160053278-1"></script>
 <script>
@@ -15,27 +17,32 @@
 
 </head>
 <body>
-  <h1><a href="index.html">WEB</a><h1>
-  <ol>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JavaScript</a></li>
-  </ol>
-  <h2>HTML</h2>
-  <p><strong>1</strong>. 파일을 만들고 에디터 프로그램에서 그 파일을 열고 거기에다 폴더를 만들어라
-  <br><strong>2</strong>. <strong>'@.<u>html</u>'</strong>은 html의 확장자이다.</p>
-  <br><strong>1</strong>. 글자를 진하게 하려면 '<.strong>','<./strong>'로 한다.
-  <br><strong>2</strong>. 글자에 밑줄을 치려면 '<.u>','<./u>'로 한다.
-  <br><strong>3</strong>. 제목을 정할 때 '<.h@>','<./h@>' {@는 1부터의 수}로 한다. @는 수가 작을 수록 중요하다는 뜻이다.
-  <br><strong>4</strong>. 줄바꿈을 할 때는 '<.br>'로 한다.
-  <br><strong>5</strong>. 새로운 단락을 만들 때는 '<.p>','<./p>'로 한다.
-  <br><strong>6</strong>. 사진을 첨부할 때는 사진을 파일에 저장을 하고 자기가 원하는 이름으로 바꾸고 난 뒤 "" 사이에 정한 이름을 입력하면 된다.<.img src="" width=""> 그리고 사진의 크기는 width=""에다가 원하는 크기를 입력한다<br><img src="이미지.jpg">
-  <br><strong>7</strong>. 목록을 만들 때 쓰는 '<.li>','<./li>' 태그는 '<.ul>','<./ul>' 라는 부모 코드랑 있다 <br><img src="부모코드.jpg"><br> '<.ol>','<./ol>'를 이용하여 앞에 숫자를 붙일 수 있다.
-  <p>가장 중요한 부분<br><img src="중요한것.jpg" width="50%"></p>
-  <br>링크<br> <img src="링크.jpg" width="50%"
-  <p><iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <br><br>동영상을 삽입할때 동영상의 퍼가기 버튼을 누른 후 소스를 복사해 붙여 넣는다</p>
-  <p><div id="disqus_thread"></div>
+  <h1><a href="index.html">WEB</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="3.html">JavaScript</a></li>
+    </ol>
+    <div id="내용">
+      <h2>HTML</h2>
+      <p><strong>1</strong>. 파일을 만들고 에디터 프로그램에서 그 파일을 열고 거기에다 폴더를 만들어라
+      <br><strong>2</strong>. <strong>'@.<u>html</u>'</strong>은 html의 확장자이다.</p>
+      <br><strong>1</strong>. 글자를 진하게 하려면 '<.strong>','<./strong>'로 한다.
+      <br><strong>2</strong>. 글자에 밑줄을 치려면 '<.u>','<./u>'로 한다.
+      <br><strong>3</strong>. 제목을 정할 때 '<.h@>','<./h@>' {@는 1부터의 수}로 한다. @는 수가 작을 수록 중요하다는 뜻이다.
+      <br><strong>4</strong>. 줄바꿈을 할 때는 '<.br>'로 한다.
+      <br><strong>5</strong>. 새로운 단락을 만들 때는 '<.p>','<./p>'로 한다.
+      <br><strong>6</strong>. 사진을 첨부할 때는 사진을 파일에 저장을 하고 자기가 원하는 이름으로 바꾸고 난 뒤 "" 사이에 정한 이름을 입력하면 된다.<.img src="" width=""> 그리고 사진의 크기는 width=""에다가 원하는 크기를 입력한다<br><img src="이미지.jpg">
+      <br><strong>7</strong>. 목록을 만들 때 쓰는 '<.li>','<./li>' 태그는 '<.ul>','<./ul>' 라는 부모 코드랑 있다 <br><img src="부모코드.jpg"><br> '<.ol>','<./ol>'를 이용하여 앞에 숫자를 붙일 수 있다.
+      <p>가장 중요한 부분<br><img src="중요한것.jpg" width="50%"></p>
+      <br>링크<br> <img src="링크.jpg" width="50%"
+      <p><iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br><br>동영상을 삽입할때 동영상의 퍼가기 버튼을 누른 후 소스를 복사해 붙여 넣는다</p>
+    </div>
+  </div>
+
+    <div id="disqus_thread"></div>
   <script>
 
   /**
